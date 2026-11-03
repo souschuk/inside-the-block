@@ -256,6 +256,8 @@ transaction reaches, and they say nothing about the crowded tail.
   used it, so removing the image failed quietly and `docker compose up` took the old one: 117 tests, block T's Ukrainian output and no
   `tools/reproduce.py`. With those containers removed and the image rebuilt, 223 tests passed and both reports came out equal to
   `report/`. The README now says `docker compose up --build`, which never reuses an old image.
+- 3 Nov 10:07. On the committed tree one timing test failed once on the same host: a 10 ms gap came out at 14.6 ms against an
+  upper bound of 12 ms. The bound now leaves 8 ms for a loaded machine and still fails a pair sent with another kind's gap.
 
 ### Known limits of the frozen code
 

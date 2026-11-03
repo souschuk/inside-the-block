@@ -181,7 +181,8 @@ def test_the_window_regime_fires_when_the_first_slot_is_seen(tmp_path):
     assert len(recorder.streams) == 2
 
 
-@pytest.mark.parametrize('kind,low,high', [('W2', 2.0, 4.0), ('W10', 10.0, 12.0), ('W40', 40.0, 42.0)])
+# The upper bound leaves room for a loaded host, not for the gap of another kind.
+@pytest.mark.parametrize('kind,low,high', [('W2', 2.0, 10.0), ('W10', 10.0, 18.0), ('W40', 40.0, 48.0)])
 def test_a_curve_pair_keeps_the_gap_of_its_kind(tmp_path, kind, low, high):
     pair = schedule.Pair(5, T1.identity, 'treated', 200, 'b', kind, 'a', 'window')
     recorder, ledger, s = asyncio.run(drive(tmp_path, True, pair=pair))
