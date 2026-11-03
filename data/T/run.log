@@ -1,0 +1,393 @@
+відмова: 3AoiBPqEygu2i2bFnTcX2BUyUoQh87kG3tqLa6Ldwgmd: simulation failed: AccountNotFound
+ціль      група     очікую              бачу                tpuQuic                 стан
+HEL1USMZ  treated   JitoLabs 4.4.0      JitoLabs 4.4.0      64.130.57.215:8002      ok
+E1r4Psq8  treated   JitoLabs 4.4.0      JitoLabs 4.4.0      64.130.42.75:8002       ok
+bitHUmbK  treated   JitoLabs 4.4.0      JitoLabs 4.4.0      116.126.141.28:9002     ok
+3SkE34PV  control   JitoLabs 4.3.2      JitoLabs 4.3.2      185.189.44.170:12002    ok
+8gDfqHXZ  control   JitoLabs 4.3.2      JitoLabs 4.3.2      67.213.121.155:8002     ok
+privaEdS  control   JitoLabs 4.3.2      JitoLabs 4.3.2      64.130.40.170:8002      ok
+EvnRmnMr  relayer   JitoLabs 4.3.2      JitoLabs 4.3.2      198.13.140.73:11228     ok
+5pPRHnie  relayer   JitoLabs 4.3.2      JitoLabs 4.3.2      188.42.129.244:11228    ok
+GnC339vk  relayer   JitoLabs 4.3.2      JitoLabs 4.3.2      23.109.158.124:11228    ok
+ціль      група     очікую              бачу                tpuQuic                 стан
+HEL1USMZ  treated   JitoLabs 4.4.0      JitoLabs 4.4.0      64.130.57.215:8002      ok
+E1r4Psq8  treated   JitoLabs 4.4.0      JitoLabs 4.4.0      64.130.42.75:8002       ok
+bitHUmbK  treated   JitoLabs 4.4.0      JitoLabs 4.4.0      116.126.141.28:9002     ok
+3SkE34PV  control   JitoLabs 4.3.2      JitoLabs 4.3.2      185.189.44.170:12002    ok
+8gDfqHXZ  control   JitoLabs 4.3.2      JitoLabs 4.3.2      67.213.121.155:8002     ok
+privaEdS  control   JitoLabs 4.3.2      JitoLabs 4.3.2      64.130.40.170:8002      ok
+EvnRmnMr  relayer   JitoLabs 4.3.2      JitoLabs 4.3.2      198.13.140.73:11228     ok
+5pPRHnie  relayer   JitoLabs 4.3.2      JitoLabs 4.3.2      188.42.129.244:11228    ok
+GnC339vk  relayer   JitoLabs 4.3.2      JitoLabs 4.3.2      23.109.158.124:11228    ok
+preflight 6GFJd8Se: err=None units=4873 loaded=75099 fee=13520 (план 13520) cost=7361 priority=1496875
+preflight 3AoiBPqE: err=None units=4873 loaded=75099 fee=13520 (план 13520) cost=7361 priority=1496875
+
+LIVE mainnet 20261101T080507Z-live-9ddx: пар 9, комісії до 0.000243 SOL
+  платники 6GFJd8SeVQVP2xXMSkWvtsUfvgSbZFAdZSrwouARbhMX, 3AoiBPqEygu2i2bFnTcX2BUyUoQh87kG3tqLa6Ldwgmd
+  HEL1USMZ treated JitoLabs 4.4.0 64.130.57.215:8002
+  E1r4Psq8 treated JitoLabs 4.4.0 64.130.42.75:8002
+  bitHUmbK treated JitoLabs 4.4.0 116.126.141.28:9002
+  3SkE34PV control JitoLabs 4.3.2 185.189.44.170:12002
+  8gDfqHXZ control JitoLabs 4.3.2 67.213.121.155:8002
+  privaEdS control JitoLabs 4.3.2 64.130.40.170:8002
+  EvnRmnMr relayer JitoLabs 4.3.2 198.13.140.73:11228
+  5pPRHnie relayer JitoLabs 4.3.2 188.42.129.244:11228
+  GnC339vk relayer JitoLabs 4.3.2 23.109.158.124:11228
+Ліміт блоку T: 0.010000 SOL, витрачено 0.000035 SOL. Ліміт проєкту: 0.050000 SOL, витрачено 0.000035 SOL. Лишилось 0.009965 SOL.
+Ctrl-C протягом 5 с скасовує.
+#0    5pPRHnie relayer  F=464018360 sent         gap=10.097 rtt=48.71019 conn=aa78602991510deb ack=[51.587, 46.969]
+#1    EvnRmnMr relayer  F=464018420 sent         gap=9.751 rtt=29.05464902287349 conn=c1ce47b20c80597f ack=[28.794, 38.538]
+#2    3SkE34PV control  F=464018532 sent         gap=9.608 rtt=51.15729799726978 conn=1f32bd4825929d8f ack=[49.957, 59.56]
+#3    E1r4Psq8 treated  F=464018592 sent         gap=9.987 rtt=35.96317199990153 conn=1b5636c46d521c3d ack=[35.241, 45.223]
+#4    HEL1USMZ treated  F=464018740 sent         gap=9.678 rtt=34.9626989569515 conn=ece7cfbf44e8ecd7 ack=[34.575, 44.248]
+#5    bitHUmbK treated  F=464018780 sent         gap=9.783 rtt=246.55411097919568 conn=b3d8493300c50a91 ack=[254.72, 244.94]
+#6    8gDfqHXZ control  F=464018836 sent         gap=9.945 rtt=47.091112029738724 conn=4ffbc37e7f4785e0 ack=[55.653, 45.71]
+#7    GnC339vk relayer  F=464018972 sent         gap=10.017 rtt=39.820288 conn=07db5de1bd7f695d ack=[34.98, 36.977]
+#8    privaEdS control  F=464019228 sent         gap=10.061 rtt=35.97803998272866 conn=1edebbd53b5e83b9 ack=[34.892, 44.946]
+
+getSlot: опитувань 607, помилок 0, затримка p50 47 мс, макс 462 мс. Витіснень з'єднань: {'188.42.129.244:11228': 1, '23.109.158.124:11228': 1}. Штампів слотів: 987.
+
+Ціль      група     пар  статуси
+3SkE34PV  control   1    {'sent': 1}
+8gDfqHXZ  control   1    {'sent': 1}
+privaEdS  control   1    {'sent': 1}
+5pPRHnie  relayer   1    {'sent': 1}
+EvnRmnMr  relayer   1    {'sent': 1}
+GnC339vk  relayer   1    {'sent': 1}
+E1r4Psq8  treated   1    {'sent': 1}
+HEL1USMZ  treated   1    {'sent': 1}
+bitHUmbK  treated   1    {'sent': 1}
+
+Зазор у парі, мс: {'n': 9, 'min': 9.608, 'median': 9.945, 'p90': 10.097, 'p99': 10.097, 'max': 10.097}
+Випередження першого шреда F за штампом RPC, мінус RTT/2, мс: {'n': 9, 'min': 928.6, 'median': 1007.5, 'p90': 1138.4, 'p99': 1138.4, 'max': 1138.4}
+Межа зсуву годинників (мін. затримка штампа), мс: 26.10009765625
+
+Адреса                     n     RTT мін/p50/p99/макс, мс        близьких пінгів  повільніше на ≥10 мс
+188.42.129.244:11228      13    43.7/44.9/51.4/51.4               4                0
+198.13.140.73:11228       56    28.3/29.0/53.4/53.4               25               0
+185.189.44.170:12002      41    49.7/50.7/65.9/65.9               10               0
+64.130.42.75:8002         44    35.0/35.8/37.2/37.2               12               0
+64.130.57.215:8002        53    34.3/35.1/59.0/59.0               23               0
+116.126.141.28:9002       44    245.0/245.9/250.5/250.5           11               0
+67.213.121.155:8002       56    45.7/46.4/48.1/48.1               27               0
+23.109.158.124:11228      15    34.3/34.8/59.5/59.5               8                0
+64.130.40.170:8002        48    34.3/35.7/58.6/58.6               17               0
+
+Журнали: /home/max/itb/out/20261101T080507Z-live-9ddx/journal.jsonl, probes.jsonl, rtt.jsonl, links.jsonl, stamps.jsonl
+ціль      група     очікую              бачу                tpuQuic                 стан
+HEL1USMZ  treated   JitoLabs 4.4.0      JitoLabs 4.4.0      64.130.57.215:8002      ok
+E1r4Psq8  treated   JitoLabs 4.4.0      JitoLabs 4.4.0      64.130.42.75:8002       ok
+bitHUmbK  treated   JitoLabs 4.4.0      JitoLabs 4.4.0      116.126.141.28:9002     ok
+3SkE34PV  control   JitoLabs 4.3.2      JitoLabs 4.3.2      185.189.44.170:12002    ok
+8gDfqHXZ  control   JitoLabs 4.3.2      JitoLabs 4.3.2      67.213.121.155:8002     ok
+privaEdS  control   JitoLabs 4.3.2      JitoLabs 4.3.2      64.130.40.170:8002      ok
+EvnRmnMr  relayer   JitoLabs 4.3.2      JitoLabs 4.3.2      198.13.140.73:11228     ok
+5pPRHnie  relayer   JitoLabs 4.3.2      JitoLabs 4.3.2      188.42.129.244:11228    ok
+GnC339vk  relayer   JitoLabs 4.3.2      JitoLabs 4.3.2      23.109.158.124:11228    ok
+preflight 6GFJd8Se: err=None units=4873 loaded=75099 fee=13520 (план 13520) cost=7361 priority=1496875
+preflight 3AoiBPqE: err=None units=4873 loaded=75099 fee=13520 (план 13520) cost=7361 priority=1496875
+
+LIVE mainnet 20261101T080507Z-live-9ddx: пар 261, комісії до 0.007057 SOL
+  платники 6GFJd8SeVQVP2xXMSkWvtsUfvgSbZFAdZSrwouARbhMX, 3AoiBPqEygu2i2bFnTcX2BUyUoQh87kG3tqLa6Ldwgmd
+  HEL1USMZ treated JitoLabs 4.4.0 64.130.57.215:8002
+  E1r4Psq8 treated JitoLabs 4.4.0 64.130.42.75:8002
+  bitHUmbK treated JitoLabs 4.4.0 116.126.141.28:9002
+  3SkE34PV control JitoLabs 4.3.2 185.189.44.170:12002
+  8gDfqHXZ control JitoLabs 4.3.2 67.213.121.155:8002
+  privaEdS control JitoLabs 4.3.2 64.130.40.170:8002
+  EvnRmnMr relayer JitoLabs 4.3.2 198.13.140.73:11228
+  5pPRHnie relayer JitoLabs 4.3.2 188.42.129.244:11228
+  GnC339vk relayer JitoLabs 4.3.2 23.109.158.124:11228
+Ліміт блоку T: 0.010000 SOL, витрачено 0.000278 SOL. Ліміт проєкту: 0.050000 SOL, витрачено 0.000278 SOL. Лишилось 0.009722 SOL.
+Ctrl-C протягом 5 с скасовує.
+#9    E1r4Psq8 treated  F=464020044 sent         gap=9.9 rtt=35.76125899562612 conn=c65b9c56d740866d ack=[45.042, 35.147]
+#10   3SkE34PV control  F=464020180 sent         gap=9.803 rtt=52.63880700804293 conn=aab989a49ccde140 ack=[50.028, 59.825]
+#11   HEL1USMZ treated  F=464020264 sent         gap=9.664 rtt=35.64116000197828 conn=5f389eaa3fb04b31 ack=[34.665, 44.324]
+#12   bitHUmbK treated  F=464020352 sent         gap=9.951 rtt=246.2998180068098 conn=2543ca160b71cc64 ack=[254.951, 245.003]
+#13   EvnRmnMr relayer  F=464020460 sent         gap=9.629 rtt=29.871101048775017 conn=89f84b3c6477000e ack=[38.437, 28.814]
+#14   8gDfqHXZ control  F=464020516 sent         gap=9.7 rtt=47.41010101279244 conn=3106bd6a5245cd4b ack=[56.798, 47.105]
+#15   GnC339vk relayer  F=464020688 sent         gap=10.1 rtt=39.182184 conn=3309bed81062ec91 ack=[34.349, 35.475]
+#16   5pPRHnie relayer  F=464020848 sent         gap=10.066 rtt=48.420789 conn=6164973c25e7af13 ack=[44.705, 44.446]
+#17   E1r4Psq8 treated  F=464021288 sent         gap=9.741 rtt=36.80450302781537 conn=6878d4052528840a ack=[35.353, 45.088]
+#18   3SkE34PV control  F=464021404 sent         gap=10.042 rtt=56.9449900300242 conn=775df6e8ef10ade9 ack=[66.17, 56.168]
+#19   HEL1USMZ treated  F=464021524 sent         gap=9.869 rtt=35.92632201034576 conn=7599e1ac5473fd67 ack=[34.895, 44.759]
+#20   privaEdS control  F=464021824 sent         gap=9.786 rtt=35.43227296322584 conn=99ffd23531b2ffd6 ack=[60.404, 34.762]
+#21   EvnRmnMr relayer  F=464021888 sent         gap=9.573 rtt=29.900609015021473 conn=5420310231946abc ack=[28.489, 38.057]
+#22   bitHUmbK treated  F=464022132 sent         gap=9.921 rtt=246.12935500917956 conn=779d8cd76fa88839 ack=[255.481, 245.565]
+#23   5pPRHnie relayer  F=464022172 sent         gap=10.062 rtt=50.358335 conn=2edc7eaef5aeb671 ack=[45.623, 44.328]
+#24   GnC339vk relayer  F=464022524 sent         gap=10.077 rtt=38.234804 conn=5f02d77560d042f0 ack=[35.51, 37.451]
+#25   HEL1USMZ treated  F=464022732 sent         gap=9.767 rtt=35.65427605062723 conn=cfa67fc1afd225b7 ack=[35.219, 44.98]
+#26   3SkE34PV control  F=464022844 sent         gap=9.671 rtt=56.556112971156836 conn=8fa47479191dd11f ack=[56.042, 81.563]
+#27   EvnRmnMr relayer  F=464023420 sent         gap=9.943 rtt=29.822591948322952 conn=ff41d8671949a18e ack=[28.399, 38.339]
+#28   E1r4Psq8 treated  F=464023460 sent         gap=10.095 rtt=35.84911699872464 conn=1abf77fad46f9b2e ack=[45.253, 35.163]
+#29   5pPRHnie relayer  F=464023536 sent         gap=10.07 rtt=47.918255 conn=44b561d3c8922ef4 ack=[45.761, 44.699]
+#30   8gDfqHXZ control  F=464023652 sent         gap=10.046 rtt=71.1899510351941 conn=e33bf08e30d78edb ack=[46.043, 56.086]
+#31   privaEdS control  F=464023976 sent         gap=9.694 rtt=35.539318015798926 conn=c262a13265d8af01 ack=[35.227, 60.341]
+#32   bitHUmbK treated  F=464024020 sent         gap=9.758 rtt=245.9043929935433 conn=c9b8c160418f95cd ack=[255.061, 245.309]
+#33   HEL1USMZ treated  F=464024112 sent         gap=9.739 rtt=34.96924301143736 conn=319568501b95ebb8 ack=[44.722, 34.987]
+#34   GnC339vk relayer  F=464024180 sent         gap=10.043 rtt=40.2572 conn=9b54086f80ce3777 ack=[34.632, 36.669]
+#35   3SkE34PV control  F=464024384 sent         gap=9.861 rtt=50.38606401067227 conn=b6824b55162d38c6 ack=[60.052, 50.197]
+#36   EvnRmnMr relayer  F=464024648 sent         gap=9.643 rtt=29.423821973614395 conn=c5a898b3930db11c ack=[28.324, 37.961]
+#37   E1r4Psq8 treated  F=464024840 sent         gap=9.844 rtt=35.84789498709142 conn=90fe8ee653c5b132 ack=[60.354, 35.024]
+#38   5pPRHnie relayer  F=464024936 sent         gap=10.018 rtt=49.774157 conn=2b5a277dedca0873 ack=[44.747, 47.103]
+#39   HEL1USMZ treated  F=464025352 sent         gap=9.759 rtt=35.14240300282836 conn=588fecc255a46445 ack=[34.763, 44.514]
+#40   GnC339vk relayer  F=464025436 sent         gap=10.051 rtt=39.172937 conn=ed0ae4080261373b ack=[34.357, 36.615]
+#41   8gDfqHXZ control  F=464025776 sent         gap=9.807 rtt=46.424926980398595 conn=90d087eedcd945c7 ack=[55.151, 45.35]
+#42   EvnRmnMr relayer  F=464025848 sent         gap=9.775 rtt=29.74001500988379 conn=5afc519f207f8e8b ack=[32.063, 33.233]
+#43   E1r4Psq8 treated  F=464026356 sent         gap=9.733 rtt=35.757894010748714 conn=e86564a7ccbb8f82 ack=[42.565, 42.808]
+#44   bitHUmbK treated  F=464026432 sent         gap=9.939 rtt=245.81859100144356 conn=b5465b37c6d81eac ack=[245.505, 255.44]
+#45   HEL1USMZ treated  F=464026576 sent         gap=9.994 rtt=35.172969999257475 conn=b366a2af01f68465 ack=[44.883, 34.892]
+#46   3SkE34PV control  F=464026724 sent         gap=9.794 rtt=50.92554000439122 conn=1874bafb77a68db5 ack=[60.699, 50.911]
+#47   5pPRHnie relayer  F=464026808 sent         gap=10.035 rtt=52.088641 conn=8552ee5716b09783 ack=[45.324, 47.066]
+#48   GnC339vk relayer  F=464026952 sent         gap=10.007 rtt=39.394368 conn=ae1e5e87de1f80e4 ack=[34.306, 34.195]
+#49   EvnRmnMr relayer  F=464027252 sent         gap=9.8 rtt=29.460573010146618 conn=26c8085137925786 ack=[28.476, 38.273]
+#50   privaEdS control  F=464027360 sent         gap=9.807 rtt=36.56895897584036 conn=ee6c157d2730d843 ack=[35.103, 44.904]
+#51   bitHUmbK treated  F=464027840 sent         gap=9.994 rtt=246.3253059773706 conn=e044f60223a5a877 ack=[245.903, 255.891]
+#52   HEL1USMZ treated  F=464027884 sent         gap=10.028 rtt=35.97706098807976 conn=914f1d9e57020955 ack=[44.888, 34.867]
+#53   E1r4Psq8 treated  F=464027952 sent         gap=9.986 rtt=35.31752401031554 conn=6fb279a0a9bcb7e4 ack=[60.822, 35.002]
+#54   5pPRHnie relayer  F=464028204 sent         gap=10.025 rtt=48.855785 conn=7a41438de29463be ack=[44.438, 44.456]
+#55   GnC339vk relayer  F=464028336 sent         gap=10.031 rtt=38.712837 conn=f049e28c12265053 ack=[35.9, 34.448]
+#56   3SkE34PV control  F=464028416 sent         gap=10.035 rtt=56.468017015140504 conn=4c24bc6e0b27ae19 ack=[66.109, 56.081]
+#57   EvnRmnMr relayer  F=464028524 sent         gap=9.71 rtt=29.651618003845215 conn=cede8e55afc03f96 ack=[35.866, 36.814]
+#58   8gDfqHXZ control  F=464028876 sent         gap=9.837 rtt=45.068405009806156 conn=fed91a637252fdc1 ack=[44.834, 70.155]
+#59   HEL1USMZ treated  F=464029096 sent         gap=10.031 rtt=35.08593301521614 conn=41f8267077a2ee68 ack=[35.013, 45.038]
+#60   bitHUmbK treated  F=464029276 sent         gap=9.773 rtt=245.6599980010651 conn=d1eccee28ec8010a ack=[245.535, 255.301]
+#61   E1r4Psq8 treated  F=464029440 sent         gap=9.798 rtt=36.53835996519774 conn=1d562f9ac74ec614 ack=[45.324, 35.534]
+#62   5pPRHnie relayer  F=464029588 sent         gap=9.986 rtt=49.894173 conn=ae111e8a7b4b3401 ack=[46.659, 45.681]
+#63   GnC339vk relayer  F=464029732 sent         gap=9.846 rtt=38.875427 conn=4c83101d8b6ed15b ack=[34.001, 37.156]
+#64   EvnRmnMr relayer  F=464030300 sent         gap=9.759 rtt=29.160552041139454 conn=7f27a7f4e42b1cdc ack=[38.845, 29.094]
+#65   HEL1USMZ treated  F=464030400 sent         gap=9.701 rtt=35.951462015509605 conn=8e6632f7f9ff494f ack=[44.857, 35.162]
+#66   privaEdS control  F=464030708 sent         gap=10.049 rtt=35.573894006665796 conn=5f15c3d27c47bab6 ack=[34.703, 60.308]
+#67   E1r4Psq8 treated  F=464030776 sent         gap=9.781 rtt=35.856101976241916 conn=e425704d48325b10 ack=[44.887, 35.11]
+#68   bitHUmbK treated  F=464030848 sent         gap=9.898 rtt=245.7076290389523 conn=8e8b7d18abad0700 ack=[255.508, 245.612]
+#69   5pPRHnie relayer  F=464031252 sent         gap=10.015 rtt=49.432416 conn=6dca116a577bbd6d ack=[44.732, 46.972]
+#70   3SkE34PV control  F=464031296 sent         gap=9.662 rtt=50.78288996592164 conn=e9d0d784b4ceab1f ack=[55.19, 64.847]
+#71   GnC339vk relayer  F=464031360 sent         gap=10.161 rtt=38.537157 conn=3fd88f5fc3b800ed ack=[34.458, 35.955]
+#72   EvnRmnMr relayer  F=464031516 sent         gap=10.023 rtt=29.431389027740806 conn=69e1cf815528f561 ack=[38.379, 28.36]
+#73   HEL1USMZ treated  F=464031628 sent         gap=9.756 rtt=59.81149402214214 conn=53caa0746a5a2d13 ack=[34.804, 59.824]
+#74   E1r4Psq8 treated  F=464032032 sent         gap=9.683 rtt=35.883169004227966 conn=08519eab4457a2b1 ack=[35.177, 44.855]
+#75   bitHUmbK treated  F=464032444 sent         gap=9.907 rtt=244.972829031758 conn=d8d42a7367b42887 ack=[254.616, 244.712]
+#76   8gDfqHXZ control  F=464032624 sent         gap=9.784 rtt=54.50768602313474 conn=bf76400338f4d29b ack=[44.836, 54.617]
+#77   5pPRHnie relayer  F=464032876 sent         gap=9.993 rtt=49.202627 conn=9b0b6e6a817476c7 ack=[47.803, 44.931]
+#78   HEL1USMZ treated  F=464033136 sent         gap=9.901 rtt=35.7629400328733 conn=b9f7254138ce5703 ack=[45.046, 35.152]
+#79   GnC339vk relayer  F=464033204 sent         gap=10.002 rtt=39.568945 conn=f88d7e5bf4a6b952 ack=[35.479, 38.505]
+#80   3SkE34PV control  F=464033252 sent         gap=9.6 rtt=51.89113903325051 conn=886f65fb7f26ff08 ack=[49.879, 59.471]
+#81   E1r4Psq8 treated  F=464033324 sent         gap=9.705 rtt=35.95731898676604 conn=cd6d1be216fcc4be ack=[35.507, 45.203]
+#82   EvnRmnMr relayer  F=464033372 sent         gap=9.971 rtt=28.709656989667565 conn=cae378f7c2e61755 ack=[38.339, 28.373]
+#83   8gDfqHXZ control  F=464033848 sent         gap=9.706 rtt=46.95309695089236 conn=5786f403d982ef35 ack=[56.201, 46.501]
+#84   5pPRHnie relayer  F=464034240 sent         gap=9.988 rtt=49.527636 conn=2b6063c689f15358 ack=[47.012, 45.656]
+#85   HEL1USMZ treated  F=464034468 sent         gap=9.953 rtt=35.070158971939236 conn=edb432a06e8daa57 ack=[44.934, 34.987]
+#86   E1r4Psq8 treated  F=464034536 sent         gap=9.83 rtt=36.229227983858436 conn=30e505a5f07f62fd ack=[35.241, 45.065]
+#87   GnC339vk relayer  F=464034596 sent         gap=10.024 rtt=39.581479 conn=85970326986bfe11 ack=[34.779, 35.246]
+#88   EvnRmnMr relayer  F=464034720 sent         gap=9.946 rtt=29.231321963015944 conn=9955746d943f4a07 ack=[28.389, 38.329]
+#89   bitHUmbK treated  F=464034792 sent         gap=9.963 rtt=245.55121102603152 conn=a32ae6326e141b5e ack=[244.995, 270.257]
+#90   3SkE34PV control  F=464035016 sent         gap=9.813 rtt=50.72781702037901 conn=900c7d7beb8924e3 ack=[50.175, 59.98]
+#91   E1r4Psq8 treated  F=464035784 sent         gap=9.722 rtt=36.149268003646284 conn=d483bef5d07403a5 ack=[35.227, 44.944]
+#92   8gDfqHXZ control  F=464035848 sent         gap=9.583 rtt=46.88484299695119 conn=ce141d4eeb6546f3 ack=[46.316, 55.893]
+#93   5pPRHnie relayer  F=464035932 sent         gap=10.014 rtt=49.416547 conn=fe6b557c073edfd3 ack=[47.016, 44.852]
+#94   EvnRmnMr relayer  F=464036144 sent         gap=9.785 rtt=29.440794978290796 conn=8b3381b7b79ff9c4 ack=[38.472, 28.692]
+#95   3SkE34PV control  F=464036244 sent         gap=9.934 rtt=56.29438600735739 conn=dc4d1e02633b02c3 ack=[65.977, 56.046]
+#96   bitHUmbK treated  F=464036316 sent         gap=9.961 rtt=270.5044549657032 conn=6f364f67c80eeba6 ack=[255.266, 245.313]
+#97   HEL1USMZ treated  F=464036412 sent         gap=9.753 rtt=35.630071035120636 conn=e2649856d8033d0d ack=[61.068, 35.091]
+#98   GnC339vk relayer  F=464036636 sent         gap=9.999 rtt=38.933303 conn=527efef5612d1e40 ack=[36.728, 34.922]
+#99   privaEdS control  F=464037072 sent         gap=10.017 rtt=35.633849003352225 conn=4b2e17bd0c6a5d55 ack=[37.775, 47.789]
+#100  E1r4Psq8 treated  F=464037112 sent         gap=9.735 rtt=35.85670698666945 conn=a03f61586f8f1a14 ack=[35.25, 44.979]
+#101  EvnRmnMr relayer  F=464037384 sent         gap=9.731 rtt=29.090421996079385 conn=30d1b76f73a74853 ack=[28.697, 38.423]
+#102  5pPRHnie relayer  F=464037508 sent         gap=10.092 rtt=49.362631 conn=fb4e1feca205e8c4 ack=[46.337, 44.405]
+#103  HEL1USMZ treated  F=464037620 sent         gap=9.667 rtt=35.826930042821914 conn=55f44cffbbe73bf5 ack=[35.228, 44.891]
+#104  3SkE34PV control  F=464037712 sent         gap=9.766 rtt=51.217718014959246 conn=12247a4820dad07b ack=[49.69, 59.453]
+#105  GnC339vk relayer  F=464038276 sent         gap=10.042 rtt=40.564626 conn=a526149dfa6931ca ack=[35.038, 36.936]
+#106  E1r4Psq8 treated  F=464038412 sent         gap=9.657 rtt=36.194585054181516 conn=d6a540e7926bbf4e ack=[35.145, 44.796]
+#107  8gDfqHXZ control  F=464038516 sent         gap=9.931 rtt=46.08818896813318 conn=53ede84f5e047c4d ack=[45.433, 55.358]
+#108  EvnRmnMr relayer  F=464038764 sent         gap=9.809 rtt=28.76736499601975 conn=15816b944fe49275 ack=[38.78, 28.977]
+#109  privaEdS control  F=464038852 sent         gap=9.888 rtt=35.84823695709929 conn=4ed937117af32e27 ack=[44.459, 34.578]
+#110  HEL1USMZ treated  F=464038904 sent         gap=9.582 rtt=35.46956597128883 conn=ed7a71268ae0ce05 ack=[43.991, 34.415]
+#111  5pPRHnie relayer  F=464039368 sent         gap=10.097 rtt=48.218288 conn=efee26fd27ac53e2 ack=[44.628, 43.841]
+#112  bitHUmbK treated  F=464039572 sent         gap=9.972 rtt=246.42117195762694 conn=fd4513a73d73c14e ack=[255.886, 245.92]
+#113  E1r4Psq8 treated  F=464039716 sent         gap=9.831 rtt=35.507307993248105 conn=02c1f86aca904ccc ack=[45.168, 35.343]
+#114  GnC339vk relayer  F=464039980 sent         gap=10.028 rtt=39.714769 conn=3f6250cd99dc3638 ack=[34.524, 34.107]
+#115  8gDfqHXZ control  F=464040148 sent         gap=9.938 rtt=45.944343984592706 conn=0db6e2b1bb963dc1 ack=[55.483, 45.551]
+#116  EvnRmnMr relayer  F=464040288 sent         gap=9.6 rtt=29.40538900438696 conn=4a6e51869603e302 ack=[28.378, 37.972]
+#117  HEL1USMZ treated  F=464040356 sent         gap=9.759 rtt=35.44079200364649 conn=3f37a6ee57eace4c ack=[35.219, 44.969]
+#118  5pPRHnie relayer  F=464041000 sent         gap=9.992 rtt=49.568586 conn=e255d46c2813e134 ack=[47.415, 45.549]
+#119  bitHUmbK treated  F=464041096 sent         gap=9.827 rtt=247.28248200844973 conn=2b2a0dc5a5fdd6ff ack=[245.944, 271.384]
+#120  GnC339vk relayer  F=464041236 sent         gap=10.028 rtt=39.132841 conn=9bdcd61663f60ffd ack=[34.531, 36.153]
+#121  E1r4Psq8 treated  F=464041560 sent         gap=9.681 rtt=35.30608504079282 conn=5e4d2bbe5beb9703 ack=[44.855, 35.179]
+#122  HEL1USMZ treated  F=464041644 sent         gap=9.798 rtt=36.095779994502664 conn=f52c9d30be5b8437 ack=[44.423, 34.628]
+#123  8gDfqHXZ control  F=464041772 sent         gap=9.689 rtt=47.1024259692058 conn=36d9806fb852c4f3 ack=[46.16, 55.843]
+#124  3SkE34PV control  F=464041932 sent         gap=9.825 rtt=56.14512404426932 conn=2bc5dd86b3c0433f ack=[83.009, 56.264]
+#125  EvnRmnMr relayer  F=464042000 sent         gap=9.967 rtt=28.77439397852868 conn=a406407fa2654fe6 ack=[28.735, 38.696]
+#126  privaEdS control  F=464042104 sent         gap=9.817 rtt=35.529464040882885 conn=9a8a7ffe666f2129 ack=[44.659, 34.848]
+#127  5pPRHnie relayer  F=464042240 sent         gap=9.986 rtt=49.085177 conn=14e1052d32e52efe ack=[45.109, 46.009]
+#128  GnC339vk relayer  F=464042752 sent         gap=10.017 rtt=44.360771 conn=e8cc07bbaa397722 ack=[35.196, 39.078]
+#129  HEL1USMZ treated  F=464042860 sent         gap=9.876 rtt=35.061249998398125 conn=d761f5ed19762c49 ack=[44.832, 34.961]
+#130  E1r4Psq8 treated  F=464043124 sent         gap=9.923 rtt=36.21407501632348 conn=bac93a0d67e04dd9 ack=[35.346, 60.192]
+#131  EvnRmnMr relayer  F=464043300 sent         gap=9.902 rtt=29.908955993596464 conn=b1a65296c8ef5313 ack=[38.538, 28.643]
+#132  3SkE34PV control  F=464043416 sent         gap=9.746 rtt=76.5093129593879 conn=cd6057dc63d7aa9a ack=[50.051, 59.791]
+#133  5pPRHnie relayer  F=464043540 sent         gap=10.021 rtt=48.093605 conn=3fba24840b6ce6cf ack=[47.494, 45.02]
+#134  HEL1USMZ treated  F=464044176 sent         gap=9.885 rtt=35.29291305458173 conn=14e63e0222820ab0 ack=[34.915, 44.795]
+#135  8gDfqHXZ control  F=464044224 sent         gap=9.727 rtt=47.15543795609847 conn=e21b3401a8e6e5fd ack=[46.265, 55.984]
+#136  GnC339vk relayer  F=464044520 sent         gap=10.101 rtt=38.544212 conn=7e393c7163f4dca5 ack=[35.078, 36.321]
+#137  E1r4Psq8 treated  F=464044664 sent         gap=9.71 rtt=38.10754898004234 conn=ed410983ee02259d ack=[35.446, 45.149]
+#138  5pPRHnie relayer  F=464044844 sent         gap=10.113 rtt=47.90687 conn=d57816ccb928e419 ack=[45.947, 44.063]
+#139  3SkE34PV control  F=464044892 sent         gap=9.965 rtt=56.87590597663075 conn=1bb8a35eff5a00c8 ack=[70.567, 60.605]
+#140  EvnRmnMr relayer  F=464045040 sent         gap=9.695 rtt=29.602562973741442 conn=71561f3f0475410f ack=[28.764, 38.453]
+#141  privaEdS control  F=464045348 sent         gap=9.711 rtt=37.77722999220714 conn=e5e319b8e218b07c ack=[44.535, 34.829]
+#142  HEL1USMZ treated  F=464045432 sent         gap=9.622 rtt=35.90211099945009 conn=a171ce51aa009cb3 ack=[34.686, 44.301]
+#143  E1r4Psq8 treated  F=464045944 sent         gap=9.793 rtt=36.17110303603113 conn=99e6a53ced73d64e ack=[35.631, 45.418]
+#144  3SkE34PV control  F=464046144 sent         gap=9.648 rtt=56.416701956186444 conn=3e97a12c4f1d1ec6 ack=[56.351, 65.994]
+#145  GnC339vk relayer  F=464046496 sent         gap=10.005 rtt=40.138409 conn=d646afbd9e9347ae ack=[36.749, 35.377]
+#146  EvnRmnMr relayer  F=464046576 sent         gap=9.737 rtt=29.94510498829186 conn=f8a85f73ca8382db ack=[28.649, 38.38]
+#147  HEL1USMZ treated  F=464046680 sent         gap=9.803 rtt=35.76506001409143 conn=bbc8d6d2bbded2b8 ack=[44.568, 34.769]
+#148  privaEdS control  F=464046828 sent         gap=9.753 rtt=36.08231795951724 conn=3f345a2e3353b663 ack=[34.714, 44.462]
+#149  bitHUmbK treated  F=464047092 sent         gap=9.915 rtt=246.62358397617936 conn=53f3b1c35f4bb19b ack=[256.707, 246.795]
+#150  E1r4Psq8 treated  F=464047396 sent         gap=9.754 rtt=35.756916005630046 conn=2a2c28507768363e ack=[45.166, 35.418]
+#151  5pPRHnie relayer  F=464047480 sent         gap=10.115 rtt=52.849882 conn=4f3d5aab5cd69af1 ack=[46.057, 49.862]
+#152  HEL1USMZ treated  F=464047888 sent         gap=10.027 rtt=35.10868103476241 conn=0e66ff13b7cc0cd4 ack=[44.888, 34.865]
+#153  GnC339vk relayer  F=464048360 sent         gap=10.001 rtt=38.704624 conn=759faca98a706f95 ack=[34.395, 36.849]
+#154  3SkE34PV control  F=464048544 sent         gap=9.909 rtt=75.35234099486843 conn=6d21718b1d57cb4c ack=[68.704, 58.801]
+#155  E1r4Psq8 treated  F=464048604 sent         gap=9.742 rtt=35.717360000126064 conn=8f3492d44e96f3b6 ack=[35.512, 45.246]
+#156  5pPRHnie relayer  F=464048700 sent         gap=10.103 rtt=47.878993 conn=6dbfa104a5a74340 ack=[44.173, 46.138]
+#157  EvnRmnMr relayer  F=464048884 sent         gap=9.627 rtt=28.84791299002245 conn=71a7a230abf96815 ack=[38.207, 28.584]
+#158  HEL1USMZ treated  F=464049148 sent         gap=10.023 rtt=35.5433689779602 conn=379d831e1861f40c ack=[61.338, 35.211]
+#159  bitHUmbK treated  F=464049196 sent         gap=9.71 rtt=246.08537399908528 conn=c30a402c6245a015 ack=[255.188, 245.485]
+#160  GnC339vk relayer  F=464049656 sent         gap=10.034 rtt=39.182464 conn=de936455603f05c9 ack=[34.372, 34.104]
+#161  E1r4Psq8 treated  F=464049868 sent         gap=9.734 rtt=36.604069953318685 conn=f3ab91bdcfd71951 ack=[44.993, 35.264]
+#162  8gDfqHXZ control  F=464050024 sent         gap=9.982 rtt=47.45142600731924 conn=80be066b7a5c7600 ack=[46.845, 56.82]
+#163  3SkE34PV control  F=464050144 sent         gap=9.702 rtt=50.521994032897055 conn=65d87356b890e089 ack=[59.659, 49.96]
+#164  EvnRmnMr relayer  F=464050244 sent         gap=10.058 rtt=29.092999023851007 conn=0e13afcc479e1915 ack=[28.499, 38.551]
+#165  HEL1USMZ treated  F=464050356 sent         gap=9.851 rtt=36.28587300190702 conn=d9844f5315c767cd ack=[35.405, 45.25]
+#166  bitHUmbK treated  F=464050588 sent         gap=9.96 rtt=245.82036901265383 conn=4a171920237a3021 ack=[255.108, 245.15]
+#167  5pPRHnie relayer  F=464050872 sent         gap=10.1 rtt=49.792227 conn=5c039471ee8bfa42 ack=[44.392, 44.545]
+#168  privaEdS control  F=464051172 sent         gap=9.796 rtt=36.039107968099415 conn=cfb537dd4f9f2994 ack=[34.413, 44.205]
+#169  GnC339vk relayer  F=464051444 sent         gap=10.035 rtt=39.435581 conn=385037eca010e445 ack=[34.518, 36.464]
+#170  HEL1USMZ treated  F=464051604 sent         gap=9.953 rtt=35.307270963676274 conn=e697b792880ea9cb ack=[44.69, 34.743]
+#171  EvnRmnMr relayer  F=464051668 sent         gap=9.577 rtt=29.31580898584798 conn=f02e76be1255afb0 ack=[28.605, 38.177]
+#172  E1r4Psq8 treated  F=464051788 sent         gap=10.025 rtt=35.926321952138096 conn=736467c46fd47914 ack=[44.861, 34.842]
+#173  bitHUmbK treated  F=464051848 sent         gap=9.753 rtt=246.38833195203915 conn=a84308b46c8e68b2 ack=[255.333, 245.585]
+#174  8gDfqHXZ control  F=464052308 sent         gap=9.819 rtt=70.22421795409173 conn=0881270e57654d1c ack=[74.368, 47.333]
+#175  5pPRHnie relayer  F=464052592 sent         gap=9.983 rtt=48.61989 conn=ae0d2faea81676ff ack=[45.573, 47.458]
+#176  GnC339vk relayer  F=464052796 sent         gap=10.1 rtt=38.76859 conn=42ba9564a1c4ce05 ack=[36.368, 34.603]
+#177  EvnRmnMr relayer  F=464052888 sent         gap=9.921 rtt=29.232991999015212 conn=72e3465ce1e9e35d ack=[38.663, 28.747]
+#178  HEL1USMZ treated  F=464053016 sent         gap=9.83 rtt=35.736429993994534 conn=2fe8684bc69cc5af ack=[60.821, 34.624]
+#179  E1r4Psq8 treated  F=464053236 sent         gap=9.671 rtt=36.023196030873805 conn=88b09b0afc7488e8 ack=[35.071, 44.736]
+#180  bitHUmbK treated  F=464053908 sent         gap=9.701 rtt=245.98862099228427 conn=5ebd1fe513c3af73 ack=[255.636, 245.941]
+#181  5pPRHnie relayer  F=464053964 sent         gap=10.095 rtt=48.321852 conn=c62b1f255eea2094 ack=[44.299, 46.031]
+#182  HEL1USMZ treated  F=464054284 sent         gap=9.875 rtt=35.84568903315812 conn=e378b699f3af7569 ack=[44.909, 35.04]
+#183  EvnRmnMr relayer  F=464054344 sent         gap=9.951 rtt=28.89798298710957 conn=17d7526765becf0c ack=[38.601, 28.656]
+#184  privaEdS control  F=464054472 sent         gap=10.031 rtt=35.463781002908945 conn=77ab4b9b0888095a ack=[44.462, 34.435]
+#185  E1r4Psq8 treated  F=464054576 sent         gap=9.804 rtt=61.084954999387264 conn=83a66527d79bc0ac ack=[44.888, 35.09]
+#186  3SkE34PV control  F=464054636 sent         gap=9.818 rtt=81.68717101216316 conn=f43d7ea8e6fbc99e ack=[69.816, 60.004]
+#187  GnC339vk relayer  F=464054904 sent         gap=10.045 rtt=38.627989 conn=11dd574d65badbd7 ack=[34.202, 34.39]
+#188  bitHUmbK treated  F=464055164 sent         gap=9.865 rtt=246.1194750154391 conn=63acc6fbcd99ed45 ack=[254.839, 244.981]
+#189  5pPRHnie relayer  F=464055424 sent         gap=10.015 rtt=47.982422 conn=77a3d68d360d52d4 ack=[46.041, 44.053]
+#190  HEL1USMZ treated  F=464055632 sent         gap=9.84 rtt=35.99194899434224 conn=5ad5521de6fcd247 ack=[45.41, 35.577]
+#191  E1r4Psq8 treated  F=464055848 sent         gap=9.841 rtt=36.20341195492074 conn=857d11a1029ec4a7 ack=[35.433, 45.268]
+#192  EvnRmnMr relayer  F=464056040 sent         gap=9.777 rtt=29.665785050019622 conn=dec18ad514395b11 ack=[38.323, 28.549]
+#193  GnC339vk relayer  F=464056148 sent         gap=9.995 rtt=38.226008 conn=2944fe7dd2dcc3cd ack=[36.701, 34.92]
+#194  5pPRHnie relayer  F=464056796 sent         gap=10.065 rtt=48.863321 conn=8f54da15964fcc5e ack=[45.697, 46.918]
+#195  HEL1USMZ treated  F=464056852 sent         gap=9.679 rtt=35.06526097189635 conn=62b0257e5dd43b4b ack=[44.537, 34.865]
+#196  E1r4Psq8 treated  F=464057156 sent         gap=9.727 rtt=36.3602819503285 conn=589560d0de09e570 ack=[44.769, 35.048]
+#197  EvnRmnMr relayer  F=464057260 sent         gap=9.784 rtt=29.095229017548263 conn=a6cfcbdee0f5208b ack=[38.324, 28.544]
+#198  GnC339vk relayer  F=464057364 sent         gap=10.099 rtt=39.083144 conn=453db8e2e14404de ack=[34.372, 35.974]
+#199  bitHUmbK treated  F=464057588 sent         gap=9.883 rtt=246.14582597278059 conn=de20fafa83d6f02c ack=[251.839, 253.603]
+#200  8gDfqHXZ control  F=464057660 sent         gap=9.903 rtt=46.88230298925191 conn=a600221977664958 ack=[56.066, 46.17]
+#201  privaEdS control  F=464058028 sent         gap=9.99 rtt=35.40867598494515 conn=09e879c8782d40ef ack=[34.485, 44.473]
+#202  5pPRHnie relayer  F=464058108 sent         gap=9.993 rtt=48.100698 conn=8503df14b09ddddb ack=[44.014, 45.255]
+#203  3SkE34PV control  F=464058232 sent         gap=9.956 rtt=50.639578979462385 conn=a5606ed65d212729 ack=[60.053, 50.1]
+#204  E1r4Psq8 treated  F=464058500 sent         gap=9.637 rtt=35.496133053675294 conn=e8c94b77e8142890 ack=[45.266, 35.635]
+#205  EvnRmnMr relayer  F=464058560 sent         gap=9.869 rtt=29.16755605256185 conn=fba66d5639d39f86 ack=[28.732, 38.595]
+#206  5pPRHnie relayer  F=464059392 sent         gap=10.003 rtt=48.798337 conn=e7f1b37949f0934d ack=[46.147, 44.055]
+#207  privaEdS control  F=464059548 sent         gap=9.79 rtt=35.72317698271945 conn=6a2f8468053ebb37 ack=[34.882, 44.666]
+#208  E1r4Psq8 treated  F=464059728 sent         gap=9.837 rtt=36.25848600640893 conn=781aa8999a929983 ack=[35.177, 45.007]
+#209  EvnRmnMr relayer  F=464059780 sent         gap=9.748 rtt=30.063434003386647 conn=93e68e19325e2a2b ack=[38.412, 28.706]
+#210  8gDfqHXZ control  F=464059828 sent         gap=9.856 rtt=47.17817800119519 conn=acf6019b4fccba40 ack=[47.093, 72.667]
+#211  GnC339vk relayer  F=464060056 sent         gap=9.994 rtt=38.699707 conn=ee06faaa92ef7391 ack=[36.634, 35.153]
+#212  3SkE34PV control  F=464060620 sent         gap=9.918 rtt=50.835955038201064 conn=1bae652ebbf934e6 ack=[60.175, 50.263]
+#213  5pPRHnie relayer  F=464060672 sent         gap=10.004 rtt=48.962715 conn=1e54f209a99b0b4b ack=[47.477, 45.495]
+#214  bitHUmbK treated  F=464060740 sent         gap=9.915 rtt=245.87624999694526 conn=c89535abd531cecf ack=[254.91, 244.999]
+#215  8gDfqHXZ control  F=464061044 sent         gap=9.912 rtt=49.87994700204581 conn=4b69e88fd2281ee0 ack=[55.836, 45.927]
+#216  EvnRmnMr relayer  F=464061180 sent         gap=10.022 rtt=29.52086601871997 conn=006c7bda0a0d9448 ack=[38.651, 28.636]
+#217  privaEdS control  F=464061888 sent         gap=9.597 rtt=35.4876009747386 conn=af4453bc64d98a80 ack=[34.868, 44.459]
+#218  GnC339vk relayer  F=464061972 sent         gap=9.992 rtt=38.803032 conn=14ba3ffbe74b0f8b ack=[34.85, 36.769]
+#219  5pPRHnie relayer  F=464062028 sent         gap=9.993 rtt=48.168365 conn=b4e60dac9be79fd3 ack=[44.755, 44.344]
+#220  3SkE34PV control  F=464062140 sent         gap=9.709 rtt=57.233376044314355 conn=5e0838bad7722a15 ack=[55.814, 65.518]
+#221  bitHUmbK treated  F=464062284 sent         gap=9.613 rtt=246.1935000261292 conn=bcb6dfad50bbd5cc ack=[254.931, 245.321]
+#222  8gDfqHXZ control  F=464062324 sent         gap=10.012 rtt=46.40447199344635 conn=7e01277ca52c2d52 ack=[45.544, 55.548]
+#223  5pPRHnie relayer  F=464063408 sent         gap=10.142 rtt=49.596267 conn=76e88e99b917ec43 ack=[47.019, 45.318]
+#224  bitHUmbK treated  F=464063688 sent         gap=9.651 rtt=245.7870249869302 conn=4b8e32c319ab1355 ack=[244.962, 270.29]
+#225  8gDfqHXZ control  F=464063928 sent         gap=9.73 rtt=45.822070993017405 conn=d6326e5bdfdca794 ack=[45.273, 55.001]
+#226  3SkE34PV control  F=464063968 sent         gap=9.609 rtt=81.0712410020642 conn=c6f511945281fb14 ack=[65.524, 55.922]
+#227  GnC339vk relayer  F=464064052 sent         gap=10.042 rtt=39.475303 conn=8af2ecc2b768d844 ack=[36.516, 34.342]
+#228  privaEdS control  F=464064796 sent         gap=9.821 rtt=35.59558596462011 conn=2ce268795d3829bd ack=[34.846, 44.66]
+#229  8gDfqHXZ control  F=464065812 sent         gap=9.95 rtt=46.56648300588131 conn=e0b6b72aeb6891fe ack=[46.643, 56.586]
+#230  GnC339vk relayer  F=464065876 sent         gap=10.058 rtt=41.373301 conn=9b86e6ef2a59476f ack=[34.267, 36.067]
+#231  3SkE34PV control  F=464065940 sent         gap=9.839 rtt=50.87038597557694 conn=89cf8325c6d65dc5 ack=[59.869, 50.033]
+#232  privaEdS control  F=464066132 sent         gap=9.798 rtt=35.626570018939674 conn=ca4ca9a77e8c05b0 ack=[34.553, 44.346]
+#233  GnC339vk relayer  F=464067432 sent         gap=10.051 rtt=39.785136 conn=1aa35a0e0f07dd78 ack=[36.289, 35.282]
+#234  bitHUmbK treated  F=464067580 sent         gap=9.711 rtt=246.73604699783027 conn=7899ebd74e4f0a4d ack=[245.88, 255.584]
+#235  3SkE34PV control  F=464067884 sent         gap=9.852 rtt=51.21159701375291 conn=d6dc33743c9104b9 ack=[75.743, 49.955]
+#236  privaEdS control  F=464068876 sent         gap=9.788 rtt=35.74981502024457 conn=9f3ab9240ce509fb ack=[44.61, 34.83]
+#237  3SkE34PV control  F=464069448 sent         gap=10.03 rtt=50.37127600517124 conn=6eadc9f24d948e1f ack=[59.7, 49.672]
+#238  8gDfqHXZ control  F=464070044 sent         gap=9.984 rtt=48.154639976564795 conn=e68873d54ac786a0 ack=[56.443, 46.462]
+#239  bitHUmbK treated  F=464070440 sent         gap=9.841 rtt=246.14564302610233 conn=74bac317cc53725b ack=[255.14, 245.303]
+#240  3SkE34PV control  F=464070824 sent         gap=9.892 rtt=51.16244099335745 conn=171979664045591a ack=[60.134, 50.248]
+#241  8gDfqHXZ control  F=464071524 sent         gap=9.942 rtt=47.236897016409785 conn=ba260034bf7eab10 ack=[52.574, 52.976]
+#242  bitHUmbK treated  F=464071976 sent         gap=9.848 rtt=245.74730000458658 conn=b1c4b221e520af33 ack=[254.745, 244.9]
+#243  3SkE34PV control  F=464072748 sent         gap=9.658 rtt=50.43839100981131 conn=90d06ca59dde0e06 ack=[59.499, 49.855]
+#244  3SkE34PV control  F=464074016 sent         gap=9.933 rtt=80.95510100247338 conn=8bb821c5fa4181c6 ack=[66.016, 56.09]
+#245  8gDfqHXZ control  F=464074088 sent         gap=9.702 rtt=47.66301999334246 conn=fbfcfc5fa581a272 ack=[56.685, 46.987]
+#246  privaEdS control  F=464074776 sent         gap=9.783 rtt=34.980256017297506 conn=ca133377d47f4e8a ack=[34.894, 44.671]
+#247  3SkE34PV control  F=464075252 sent         gap=9.896 rtt=61.14342799410224 conn=11e32838c1d924a2 ack=[50.041, 59.932]
+#248  8gDfqHXZ control  F=464079744 sent         gap=9.726 rtt=45.73029997991398 conn=b0388e4ba7563834 ack=[45.348, 55.068]
+#249  bitHUmbK treated  F=464079836 sent         gap=9.918 rtt=245.7123889704235 conn=d73ff525d37f7b1a ack=[255.037, 245.125]
+#250  privaEdS control  F=464080452 sent         gap=9.948 rtt=36.16320000728592 conn=e30fa8cad6d31974 ack=[44.795, 34.853]
+#251  bitHUmbK treated  F=464081568 sent         gap=9.754 rtt=246.2876070290804 conn=18e2c3b9c2dcd4cc ack=[245.315, 255.066]
+#252  8gDfqHXZ control  F=464082944 sent         gap=9.615 rtt=46.43159402767196 conn=a60dea2791bca9d3 ack=[45.705, 55.314]
+#253  bitHUmbK treated  F=464084336 sent         gap=9.818 rtt=246.29378297831863 conn=29a8423ea8f39ef6 ack=[245.932, 271.347]
+#254  8gDfqHXZ control  F=464085428 sent         gap=9.823 rtt=46.562626981176436 conn=e6d0292d7d928b8a ack=[55.298, 45.481]
+#255  bitHUmbK treated  F=464087120 sent         gap=9.782 rtt=245.5411600181833 conn=543a2c2472f6f4e3 ack=[255.188, 245.412]
+#256  8gDfqHXZ control  F=464087208 sent         gap=9.914 rtt=46.44499302376062 conn=e1473208b1a262cf ack=[55.371, 45.461]
+#257  8gDfqHXZ control  F=464088548 sent         gap=9.646 rtt=46.53618801385164 conn=12c21356cbc262e6 ack=[45.961, 55.604]
+#258  privaEdS control  F=464088872 sent         gap=9.899 rtt=35.86474098265171 conn=8a7c0753149f8032 ack=[34.667, 44.563]
+#259  8gDfqHXZ control  F=464090628 sent         gap=9.747 rtt=47.10223097354174 conn=678fb2cdc368c860 ack=[55.813, 46.072]
+#260  privaEdS control  F=464090972 sent         gap=9.864 rtt=59.769336017780006 conn=d3c41bad029dcd07 ack=[44.358, 34.5]
+#261  privaEdS control  F=464093964 sent         gap=9.677 rtt=35.5929049779661 conn=5a5ee3159135cb7d ack=[34.693, 44.365]
+#262  8gDfqHXZ control  F=464094828 sent         gap=9.76 rtt=46.637747052591294 conn=4a5ee43b7ece4ff6 ack=[46.903, 56.618]
+#263  privaEdS control  F=464096412 sent         gap=9.934 rtt=34.98030299087986 conn=486d24b42f12040b ack=[34.338, 44.266]
+#264  privaEdS control  F=464100316 sent         gap=9.856 rtt=36.39337399508804 conn=c2dd2a315dc1e596 ack=[44.86, 35.01]
+#265  privaEdS control  F=464101796 sent         gap=9.721 rtt=35.3807260049507 conn=bf53096a3cc1d9c2 ack=[44.427, 34.713]
+#266  privaEdS control  F=464103712 sent         gap=9.948 rtt=35.10655598947778 conn=89883197f161cd29 ack=[35.033, 60.582]
+#267  privaEdS control  F=464105112 sent         gap=9.805 rtt=35.964038013480604 conn=8ed1f7209b296bec ack=[35.174, 62.704]
+#268  privaEdS control  F=464107164 sent         gap=9.78 rtt=35.323037032503635 conn=adc7990c1046751f ack=[44.642, 34.866]
+#269  privaEdS control  F=464109208 sent         gap=9.579 rtt=35.863024031277746 conn=360e1fcf60eef58f ack=[34.728, 44.304]
+
+getSlot: опитувань 57808, помилок 0, затримка p50 52 мс, макс 1317 мс. Витіснень з'єднань: {'23.109.158.124:11228': 29, '188.42.129.244:11228': 29}. Штампів слотів: 89314.
+
+Ціль      група     пар  статуси
+3SkE34PV  control   29   {'sent': 29}
+8gDfqHXZ  control   29   {'sent': 29}
+privaEdS  control   29   {'sent': 29}
+5pPRHnie  relayer   29   {'sent': 29}
+EvnRmnMr  relayer   29   {'sent': 29}
+GnC339vk  relayer   29   {'sent': 29}
+E1r4Psq8  treated   29   {'sent': 29}
+HEL1USMZ  treated   29   {'sent': 29}
+bitHUmbK  treated   29   {'sent': 29}
+
+Зазор у парі, мс: {'n': 261, 'min': 9.573, 'median': 9.865, 'p90': 10.043, 'p99': 10.115, 'max': 10.161}
+Випередження першого шреда F за штампом RPC, мінус RTT/2, мс: {'n': 261, 'min': 627.5, 'median': 1037.2, 'p90': 1180.3, 'p99': 1362.1, 'max': 1474.2}
+Межа зсуву годинників (мін. затримка штампа), мс: 21.300048828125
+
+Адреса                     n     RTT мін/p50/p99/макс, мс        близьких пінгів  повільніше на ≥10 мс
+188.42.129.244:11228      439   43.5/44.9/69.6/70.2               188              0
+198.13.140.73:11228       1522  28.0/29.1/53.6/53.9               600              1
+185.189.44.170:12002      1400  49.5/51.6/82.4/125.4              478              13
+64.130.42.75:8002         1446  34.5/35.7/60.6/61.1               521              1
+64.130.57.215:8002        1436  34.2/35.3/60.1/60.3               514              0
+116.126.141.28:9002       1023  244.2/246.1/270.4/283.9           144              0
+67.213.121.155:8002       1493  44.4/46.5/71.1/71.8               569              0
+23.109.158.124:11228      394   33.9/34.8/59.6/59.8               195              0
+64.130.40.170:8002        1425  34.0/35.4/60.0/60.2               501              4
+
+Журнали: /home/max/itb/out/20261101T080507Z-live-9ddx/journal.jsonl, probes.jsonl, rtt.jsonl, links.jsonl, stamps.jsonl

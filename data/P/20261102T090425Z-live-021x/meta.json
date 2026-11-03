@@ -1,0 +1,139 @@
+{
+ "run": "20261102T090425Z-live-021x",
+ "block": "P",
+ "session": 2,
+ "live": true,
+ "network": "mainnet",
+ "hypotheses_sha256": "43d7f026e32a92eb255b1f629d38459443588a2e1e2496c0d99e1ad9f26af328",
+ "code_sha256": "9bce0d71cd501a117939f20fdce7547dae4be0a8d0a05b07213e5ee78f77384d",
+ "design": {
+  "quota": {
+   "C4": 8,
+   "C6": 8,
+   "E": 8,
+   "W2": 4,
+   "W10": 4,
+   "W40": 4,
+   "K": 2,
+   "VH": 2,
+   "VL": 2,
+   "S1": 3,
+   "S2": 3
+  },
+  "curve": {
+   "W2": 2.0,
+   "W10": 10.0,
+   "W40": 40.0
+  }
+ },
+ "gap_ms": 10.0,
+ "anchor_slots": 5,
+ "lock_seed": "20261102T090425Z-live-021x:<seq>",
+ "payers": {
+  "a": "6GFJd8SeVQVP2xXMSkWvtsUfvgSbZFAdZSrwouARbhMX",
+  "b": "3AoiBPqEygu2i2bFnTcX2BUyUoQh87kG3tqLa6Ldwgmd"
+ },
+ "rpc": "mainnet.helius-rpc.com",
+ "targets": [
+  {
+   "identity": "7QQGNm3ptwinipDCyaCF7jY5katgmFUu1ieP2f7nwLpE",
+   "group": "agave",
+   "client": "Agave",
+   "version": "4.3.2",
+   "ingress": "direct",
+   "tpu_quic": "5.199.172.176:12002",
+   "ok": true,
+   "reason": ""
+  },
+  {
+   "identity": "HEL1USMZKAL2odpNBj2oCjffnFGaYwmbGmyewGv1e2TU",
+   "group": "jito-new",
+   "client": "JitoLabs",
+   "version": "4.4.0",
+   "ingress": "direct",
+   "tpu_quic": "64.130.57.215:8002",
+   "ok": true,
+   "reason": ""
+  },
+  {
+   "identity": "3SkE34PVeGck2ArEffFKjihrQgURsvnoTAhitsNXNzXd",
+   "group": "jito-old",
+   "client": "JitoLabs",
+   "version": "4.3.2",
+   "ingress": "direct",
+   "tpu_quic": "185.189.44.170:12002",
+   "ok": true,
+   "reason": ""
+  },
+  {
+   "identity": "9eGrDohdNTAo61DRHyfMuqKWXqYnA3i254Wiszxe8FoY",
+   "group": "firedancer",
+   "client": "Firedancer",
+   "version": "26.10.5",
+   "ingress": "direct",
+   "tpu_quic": "86.54.152.246:9007",
+   "ok": true,
+   "reason": ""
+  },
+  {
+   "identity": "ana2y2YvQ3ZPMwm6qhnN3nJoUSiT3qx5Pvetkq9xcfY",
+   "group": "rakurai",
+   "client": "Rakurai",
+   "version": "4.3.2",
+   "ingress": "direct",
+   "tpu_quic": "45.77.64.138:8002",
+   "ok": true,
+   "reason": ""
+  },
+  {
+   "identity": "DRpbCBMxVnDK7maPM5tGv6MvB3v1sRMC86PZ8okm21hy",
+   "group": "bam-new",
+   "client": "AgaveBam",
+   "version": "4.4.0",
+   "ingress": "shared",
+   "tpu_quic": "208.91.105.53:5010",
+   "ok": true,
+   "reason": ""
+  },
+  {
+   "identity": "5Cchr1XGEg7dbBXByV5NY2ad8jfxAM7HA3x8D56rq9Ux",
+   "group": "bam-old",
+   "client": "AgaveBam",
+   "version": "4.3.2",
+   "ingress": "shared",
+   "tpu_quic": "63.254.180.11:5010",
+   "ok": true,
+   "reason": ""
+  },
+  {
+   "identity": "Fd7btgySsrjuo25CJCj7oE7VPMyezDhnx7pZkj2v69Nk",
+   "group": "harmonic-agave",
+   "client": "HarmonicAgave",
+   "version": "4.4.0",
+   "ingress": "shared",
+   "tpu_quic": "198.13.140.105:12341",
+   "ok": true,
+   "reason": ""
+  },
+  {
+   "identity": "JUPiTERrZqgf1jUyR7dSkhMx4Kn2qJyekWsg3LT1h4b",
+   "group": "harmonic-firedancer",
+   "client": "HarmonicFiredancer",
+   "version": "26.10.5",
+   "ingress": "shared",
+   "tpu_quic": "198.13.140.105:12349",
+   "ok": true,
+   "reason": ""
+  },
+  {
+   "identity": "9jxgosAfHgHzwnxsHw4RAZYaLVokMbnYtmiZBreynGFP",
+   "group": "firebam",
+   "client": "FireBAM",
+   "version": "26.10.5",
+   "ingress": "shared",
+   "tpu_quic": "198.13.140.227:5010",
+   "ok": true,
+   "reason": ""
+  }
+ ]
+}

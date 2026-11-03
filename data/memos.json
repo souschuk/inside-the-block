@@ -1,0 +1,20 @@
+[
+ {
+  "block": "T",
+  "signature": "4i3tqRPjxCSw2Feyok1qhHzNCZbZR9gjYqaiHxw1348sqivPMyyHwGSRHDq5PorQuDHjouNrE4GV4udGbeB9X4bq",
+  "slot": 464002340,
+  "hypotheses": "frozen/T/hypotheses/H5.md",
+  "code": "frozen/T/tiepairs",
+  "targets": "frozen/T/targets.json",
+  "text": "tiepairs H5 sha256:3533294c9b91e72320d9c6910c5dc98ecd3c0574a28cb7d21fa240b74c8088e1 code:300f3d3ee57d44521423b329f23f80d94eb1dcb75f6703b10fb33fc4af5b997a targets:6c2e378a35ae1fa71de914c8a8b3103a6f8f408f212a3ad6195c3376eed92c55"
+ },
+ {
+  "block": "P",
+  "signature": "56Qz5wv6kdb7p96pg2XkxC18M78cx9NXAfA2CkU89c5RpR4CuFREm3RfSgKXaJ3S7MeJ3bniJFvP47NrrjK4HX99",
+  "slot": 464169852,
+  "hypotheses": "hypotheses/H6.md",
+  "code": "tiepairs",
+  "targets": "targets-P.json",
+  "text": "tiepairs H6 sha256:43d7f026e32a92eb255b1f629d38459443588a2e1e2496c0d99e1ad9f26af328 code:9bce0d71cd501a117939f20fdce7547dae4be0a8d0a05b07213e5ee78f77384d targets:cf27f0a883e3b026914e0a6e77e901212bf0cc8d4bf5f3b7d4a1d8807abadc1b"
+ }
+]

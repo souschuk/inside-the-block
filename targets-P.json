@@ -1,0 +1,75 @@
+{
+  "comment": "Block P: ten validators on eight clients. direct takes transactions on its own TPU, shared is the common ingress of BAM or Harmonic. Ingress is reported and does not change the design: every target gets the same kinds at the same moments. Client and version are checked against a fresh getClusterNodes before each plan.",
+  "targets": [
+    {
+      "identity": "7QQGNm3ptwinipDCyaCF7jY5katgmFUu1ieP2f7nwLpE",
+      "group": "agave",
+      "client": "Agave",
+      "version": "4.3.2",
+      "ingress": "direct"
+    },
+    {
+      "identity": "HEL1USMZKAL2odpNBj2oCjffnFGaYwmbGmyewGv1e2TU",
+      "group": "jito-new",
+      "client": "JitoLabs",
+      "version": "4.4.0",
+      "ingress": "direct"
+    },
+    {
+      "identity": "3SkE34PVeGck2ArEffFKjihrQgURsvnoTAhitsNXNzXd",
+      "group": "jito-old",
+      "client": "JitoLabs",
+      "version": "4.3.2",
+      "ingress": "direct"
+    },
+    {
+      "identity": "9eGrDohdNTAo61DRHyfMuqKWXqYnA3i254Wiszxe8FoY",
+      "group": "firedancer",
+      "client": "Firedancer",
+      "version": "26.10.5",
+      "ingress": "direct"
+    },
+    {
+      "identity": "ana2y2YvQ3ZPMwm6qhnN3nJoUSiT3qx5Pvetkq9xcfY",
+      "group": "rakurai",
+      "client": "Rakurai",
+      "version": "4.3.2",
+      "ingress": "direct"
+    },
+    {
+      "identity": "DRpbCBMxVnDK7maPM5tGv6MvB3v1sRMC86PZ8okm21hy",
+      "group": "bam-new",
+      "client": "AgaveBam",
+      "version": "4.4.0",
+      "ingress": "shared"
+    },
+    {
+      "identity": "5Cchr1XGEg7dbBXByV5NY2ad8jfxAM7HA3x8D56rq9Ux",
+      "group": "bam-old",
+      "client": "AgaveBam",
+      "version": "4.3.2",
+      "ingress": "shared"
+    },
+    {
+      "identity": "Fd7btgySsrjuo25CJCj7oE7VPMyezDhnx7pZkj2v69Nk",
+      "group": "harmonic-agave",
+      "client": "HarmonicAgave",
+      "version": "4.4.0",
+      "ingress": "shared"
+    },
+    {
+      "identity": "JUPiTERrZqgf1jUyR7dSkhMx4Kn2qJyekWsg3LT1h4b",
+      "group": "harmonic-firedancer",
+      "client": "HarmonicFiredancer",
+      "version": "26.10.5",
+      "ingress": "shared"
+    },
+    {
+      "identity": "9jxgosAfHgHzwnxsHw4RAZYaLVokMbnYtmiZBreynGFP",
+      "group": "firebam",
+      "client": "FireBAM",
+      "version": "26.10.5",
+      "ingress": "shared"
+    }
+  ]
+}

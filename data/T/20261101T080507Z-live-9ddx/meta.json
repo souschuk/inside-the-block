@@ -1,0 +1,103 @@
+{
+ "run": "20261101T080507Z-live-9ddx",
+ "live": true,
+ "network": "mainnet",
+ "hypotheses_sha256": "3533294c9b91e72320d9c6910c5dc98ecd3c0574a28cb7d21fa240b74c8088e1",
+ "code_sha256": "300f3d3ee57d44521423b329f23f80d94eb1dcb75f6703b10fb33fc4af5b997a",
+ "template": {
+  "cu_limit": 6000,
+  "cu_price": 1420000,
+  "loaded_limit": 131072
+ },
+ "gap_ms": 10.0,
+ "anchor_slots": 5,
+ "lock_seed": "20261101T080507Z-live-9ddx:<seq>",
+ "payers": {
+  "a": "6GFJd8SeVQVP2xXMSkWvtsUfvgSbZFAdZSrwouARbhMX",
+  "b": "3AoiBPqEygu2i2bFnTcX2BUyUoQh87kG3tqLa6Ldwgmd"
+ },
+ "rpc": "mainnet.helius-rpc.com",
+ "targets": [
+  {
+   "identity": "HEL1USMZKAL2odpNBj2oCjffnFGaYwmbGmyewGv1e2TU",
+   "group": "treated",
+   "client": "JitoLabs",
+   "version": "4.4.0",
+   "tpu_quic": "64.130.57.215:8002",
+   "ok": true,
+   "reason": ""
+  },
+  {
+   "identity": "E1r4Psq84tHfQ6aPTvvDka4U3u8zPVD7gEUrH25RdxHL",
+   "group": "treated",
+   "client": "JitoLabs",
+   "version": "4.4.0",
+   "tpu_quic": "64.130.42.75:8002",
+   "ok": true,
+   "reason": ""
+  },
+  {
+   "identity": "bitHUmbKSQDTGoyoiW3BeqaGWdyV5sS3nYt5SduUHfb",
+   "group": "treated",
+   "client": "JitoLabs",
+   "version": "4.4.0",
+   "tpu_quic": "116.126.141.28:9002",
+   "ok": true,
+   "reason": ""
+  },
+  {
+   "identity": "3SkE34PVeGck2ArEffFKjihrQgURsvnoTAhitsNXNzXd",
+   "group": "control",
+   "client": "JitoLabs",
+   "version": "4.3.2",
+   "tpu_quic": "185.189.44.170:12002",
+   "ok": true,
+   "reason": ""
+  },
+  {
+   "identity": "8gDfqHXZ5ektqQQrLrCGtSzYRwkWQrm3ANnAvQCt2LoM",
+   "group": "control",
+   "client": "JitoLabs",
+   "version": "4.3.2",
+   "tpu_quic": "67.213.121.155:8002",
+   "ok": true,
+   "reason": ""
+  },
+  {
+   "identity": "privaEdSEmnMPGPoQACUkcDGkFBbTArVvsEGd7C5wUM",
+   "group": "control",
+   "client": "JitoLabs",
+   "version": "4.3.2",
+   "tpu_quic": "64.130.40.170:8002",
+   "ok": true,
+   "reason": ""
+  },
+  {
+   "identity": "EvnRmnMrd69kFdbLMxWkTn1icZ7DCceRhvmb2SJXqDo4",
+   "group": "relayer",
+   "client": "JitoLabs",
+   "version": "4.3.2",
+   "tpu_quic": "198.13.140.73:11228",
+   "ok": true,
+   "reason": ""
+  },
+  {
+   "identity": "5pPRHniefFjkiaArbGX3Y8NUysJmQ9tMZg3FrFGwHzSm",
+   "group": "relayer",
+   "client": "JitoLabs",
+   "version": "4.3.2",
+   "tpu_quic": "188.42.129.244:11228",
+   "ok": true,
+   "reason": ""
+  },
+  {
+   "identity": "GnC339vkyXRm1jRX69dt9mapPPu2LbzXfSDoxc91qta6",
+   "group": "relayer",
+   "client": "JitoLabs",
+   "version": "4.3.2",
+   "tpu_quic": "23.109.158.124:11228",
+   "ok": true,
+   "reason": ""
+  }
+ ]
+}

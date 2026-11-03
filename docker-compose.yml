@@ -1,0 +1,70 @@
+# `docker compose up` runs the safe default: tests, power tables and the recheck of all raw data, no keys, no network.
+# Anything that talks to mainnet needs a profile. Anything that spends needs the `live` profile, the keys volume and --live
+# on the command line, and then still passes the checks in tiepairs/guard.py.
+x-common: &common
+  build: .
+  image: tiepairs:local
+  user: "${TIEPAIRS_UID:-1000}:${TIEPAIRS_GID:-1000}"
+  read_only: true
+  tmpfs: [/tmp]
+  cap_drop: [ALL]
+  security_opt: ["no-new-privileges:true"]
+  env_file:
+    - path: ${TIEPAIRS_ENV_FILE:-.no-env-file}   # a file with TIEPAIRS_RPC; without one the public RPC is used
+      required: false
+  environment:
+    TIEPAIRS_OUT: /out
+    TIEPAIRS_SECRETS: /secrets
+
+services:
+  check:
+    <<: *common
+    network_mode: none
+    entrypoint: ["sh", "-c", "python -m pytest -q -p no:cacheprovider && python -m tiepairs power && python tools/reproduce.py"]
+
+  dryrun:
+    <<: *common
+    profiles: [dryrun]
+    network_mode: host
+    volumes:
+      - ${TIEPAIRS_OUT_DIR:-./out}:/out
+    command: ["run", "--windows", "3"]
+
+  verify:
+    <<: *common
+    profiles: [verify]
+    volumes:
+      - ${TIEPAIRS_OUT_DIR:-./out}:/out:ro
+
+  live:
+    <<: *common
+    profiles: [live]
+    network_mode: host
+    volumes:
+      - ${TIEPAIRS_OUT_DIR:-./out}:/out
+      - ${TIEPAIRS_SECRETS_DIR:-./secrets}:/secrets:ro
+    command: ["balances"]
+
+  localnet-432:
+    profiles: [localnet]
+    build:
+      context: localnet
+      args: {AGAVE_VERSION: v4.3.2, AGAVE_SHA256: 5c9599d7fa397375df69d58e8d4f550ee45463dd6d1ecad9e5a1f053ce8e0933}
+    image: tiepairs-localnet:4.3.2
+    security_opt: ["seccomp=unconfined"]   # Agave 4.x needs io_uring
+    mem_limit: 3g
+    ulimits: {nofile: 1000000, memlock: -1}
+    environment: {TEST_VALIDATOR_ARGS: --alpenglow}
+    ports: ["127.0.0.1:18899:8899", "127.0.0.1:18900:8900"]
+
+  localnet-440:
+    profiles: [localnet]
+    build:
+      context: localnet
+      args: {AGAVE_VERSION: v4.4.0, AGAVE_SHA256: 3363f4728fe786ac7036e342a20df928aa2e3e43f807fbdce67814840538c574}
+    image: tiepairs-localnet:4.4.0
+    security_opt: ["seccomp=unconfined"]
+    mem_limit: 3g
+    ulimits: {nofile: 1000000, memlock: -1}
+    environment: {TEST_VALIDATOR_ARGS: --alpenglow}
+    ports: ["127.0.0.1:28899:8899", "127.0.0.1:28900:8900"]

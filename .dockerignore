@@ -1,0 +1,8 @@
+secrets
+out
+localnet
+.git
+__pycache__
+.pytest_cache
+*.md
+!hypotheses/*.md

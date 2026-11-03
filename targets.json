@@ -1,0 +1,59 @@
+{
+  "comment": "Блок T: treated містить зміну Agave #14836, control ні, обидві групи мають прямий вхід і відсортований за пріоритетом початок першого слота, контроль узято від різних операторів. relayer приймає транзакції через Jito Relayer (порт 11228): це розвідувальна група поза рішенням H5. Клієнт і версія звіряються зі свіжим getClusterNodes перед кожним планом.",
+  "targets": [
+    {
+      "identity": "HEL1USMZKAL2odpNBj2oCjffnFGaYwmbGmyewGv1e2TU",
+      "group": "treated",
+      "client": "JitoLabs",
+      "version": "4.4.0"
+    },
+    {
+      "identity": "E1r4Psq84tHfQ6aPTvvDka4U3u8zPVD7gEUrH25RdxHL",
+      "group": "treated",
+      "client": "JitoLabs",
+      "version": "4.4.0"
+    },
+    {
+      "identity": "bitHUmbKSQDTGoyoiW3BeqaGWdyV5sS3nYt5SduUHfb",
+      "group": "treated",
+      "client": "JitoLabs",
+      "version": "4.4.0"
+    },
+    {
+      "identity": "3SkE34PVeGck2ArEffFKjihrQgURsvnoTAhitsNXNzXd",
+      "group": "control",
+      "client": "JitoLabs",
+      "version": "4.3.2"
+    },
+    {
+      "identity": "8gDfqHXZ5ektqQQrLrCGtSzYRwkWQrm3ANnAvQCt2LoM",
+      "group": "control",
+      "client": "JitoLabs",
+      "version": "4.3.2"
+    },
+    {
+      "identity": "privaEdSEmnMPGPoQACUkcDGkFBbTArVvsEGd7C5wUM",
+      "group": "control",
+      "client": "JitoLabs",
+      "version": "4.3.2"
+    },
+    {
+      "identity": "EvnRmnMrd69kFdbLMxWkTn1icZ7DCceRhvmb2SJXqDo4",
+      "group": "relayer",
+      "client": "JitoLabs",
+      "version": "4.3.2"
+    },
+    {
+      "identity": "5pPRHniefFjkiaArbGX3Y8NUysJmQ9tMZg3FrFGwHzSm",
+      "group": "relayer",
+      "client": "JitoLabs",
+      "version": "4.3.2"
+    },
+    {
+      "identity": "GnC339vkyXRm1jRX69dt9mapPPu2LbzXfSDoxc91qta6",
+      "group": "relayer",
+      "client": "JitoLabs",
+      "version": "4.3.2"
+    }
+  ]
+}
