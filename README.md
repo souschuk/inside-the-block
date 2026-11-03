@@ -5,7 +5,21 @@ own transactions. Written for the Superteam Ukraine bounty of the same name. The
 
 <!-- TODO: video link. -->
 
-<!-- TODO: introduction. -->
+I wanted to know whether money buys a place in a Solana block, or whether it goes to whoever arrives first. Public measurements
+disagree on this, so I set out to find out why, with a measurement anyone can check.
+
+I sent pairs of my own transactions into a single leader's window, priced so that each candidate rule would put a different one
+first. Some pairs reached the leader just before its block, others while the block was already being built. Before trusting the
+method, I tested it on a question with a known answer (90 of 90 against 46 of 90), and every plan was frozen in an on-chain Memo
+before the first transaction. It all ran from a battery-backed home server in Kyiv, where planning around Solana's leader schedule
+turned out easier than planning around the blackout schedule.
+
+It turns out that when the leader holds both transactions at once, all ten validators sort them by reward per unit of cost. When
+the block is already being built, Agave, JitoLabs and Rakurai take them in the order they arrive, while the others work in batches
+of tens of milliseconds. That is most likely why public measurements disagree: a transaction sent through an RPC node often reaches
+the leader mid-block.
+
+Everything here reproduces with [one command](#check-it-yourself), and every pair can be checked on chain with `getBlock`.
 
 <p align="center"><img src="figures/regimes.svg" width="880" alt="The same two transactions reach a leader at two moments. Sent about a second before its slot, both wait in its buffer and the one with more reward per unit of cost goes first, though it was sent second. Sent while the leader is producing, they are taken as they arrive, unless both fall into one scheduling batch."></p>
 
