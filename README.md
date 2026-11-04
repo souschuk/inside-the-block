@@ -3,7 +3,7 @@
 How ten Solana validators on eight clients order the transactions in their blocks, measured on mainnet after Alpenglow with our
 own transactions. Written for the Superteam Ukraine bounty of the same name. The numbers are in [REPORT.md](REPORT.md).
 
-<!-- TODO: video link. -->
+A 4:30 video walks through the method and the results: [Inside the Block on YouTube](https://youtu.be/Qy4snotpZkc).
 
 I wanted to know whether money buys a place in a Solana block, or whether it goes to whoever arrives first. Public measurements
 disagree on this, so I set out to find out why, with a measurement anyone can check.
